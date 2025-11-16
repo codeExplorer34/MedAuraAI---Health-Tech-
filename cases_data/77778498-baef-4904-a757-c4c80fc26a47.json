@@ -1,0 +1,169 @@
+{
+  "id": "77778498-baef-4904-a757-c4c80fc26a47",
+  "patientId": "200145",
+  "name": "Robert Simmons",
+  "age": 58,
+  "gender": "Male",
+  "chiefComplaint": "The patient presents with chest pain, shortness of breath, and fatigue that has worsened\nover the past month.",
+  "familyHistory": "Father with history of myocardial infarction at age 65.",
+  "personalHistory": "Hypertension for 10 years, Type 2 Diabetes Mellitus for 5\nyears.",
+  "lifestyle": "Sedentary lifestyle, former smoker (quit 3 years ago), occasional\nconsumption of fatty foods.",
+  "medications": "Metformin, Lisinopril, Atorvastatin.",
+  "colonoscopy": "",
+  "stoolStudies": "",
+  "bloodTests": "Lab and Diagnostic Results:\n\u2022 ECG: ST-segment depression in leads V5-V6.\n\u2022 Echocardiogram: Left ventricular ejection fraction 45%.\n\u2022 Cardiac Enzymes: Troponin mildly elevated.\n\u2022 Lipid Profile: LDL 142 mg/dL, HDL 35 mg/dL, Triglycerides 190 mg/dL.",
+  "vitals": "BP 142/86 mmHg, HR 82 bpm, BMI 28.0",
+  "abdominalExam": "",
+  "status": "Completed",
+  "createdAt": "2025-11-15T04:00:29.210083",
+  "updatedAt": "2025-11-15T04:03:30.555609",
+  "agentResults": {
+    "specialists": {
+      "Internist": null,
+      "Neurologist": {
+        "specialist": "Neurologist",
+        "primary_assessment": "The patient's neurological status cannot be adequately assessed from the provided report due to a complete absence of neurological examination findings. However, significant risk factors for cerebrovascular disease and peripheral neuropathy are present.",
+        "overall_confidence": 85.0,
+        "key_findings": [
+          {
+            "summary": "Patient has significant risk factors for cerebrovascular disease and peripheral neuropathy.",
+            "quote": "Hypertension for 10 years, Type 2 Diabetes Mellitus for 5 years.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "The report lacks any specific neurological examination or assessment details.",
+            "quote": "LABORATORY & EXAMINATION section lists only cardiac and metabolic data.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "The chief complaint of fatigue is not explored from a neurological perspective.",
+            "quote": "The patient presents with chest pain, shortness of breath, and fatigue.",
+            "confidence": 75.0
+          }
+        ],
+        "contradictions": [],
+        "recommendations": [
+          "Conduct a comprehensive neurological examination, including cranial nerves, motor, sensory, reflexes, coordination, and gait.",
+          "Perform a detailed cognitive assessment to screen for vascular cognitive impairment.",
+          "Evaluate for peripheral neuropathy, given the history of Type 2 Diabetes Mellitus.",
+          "Consider brain imaging (e.g., MRI brain) to assess for cerebrovascular disease or silent infarcts."
+        ]
+      },
+      "Cardiologist": {
+        "specialist": "Cardiologist",
+        "primary_assessment": "Mr. Simmons presents with classic symptoms of acute coronary syndrome, supported by objective evidence of myocardial ischemia (ECG changes), myocardial injury (elevated troponin), and significant left ventricular systolic dysfunction. He carries a very high cardiovascular risk profile due to multiple uncontrolled comorbidities and lifestyle factors.",
+        "overall_confidence": 95.0,
+        "key_findings": [
+          {
+            "summary": "The patient exhibits moderate left ventricular systolic dysfunction.",
+            "quote": "Left ventricular ejection fraction 45%.",
+            "confidence": 100.0
+          },
+          {
+            "summary": "ECG findings are highly suggestive of ongoing myocardial ischemia.",
+            "quote": "ECG: ST-segment depression in leads V5-V6.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "There is biochemical evidence of myocardial injury.",
+            "quote": "Cardiac Enzymes: Troponin mildly elevated.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "The patient has a high cardiovascular risk profile due to multiple comorbidities and lifestyle factors.",
+            "quote": "Hypertension for 10 years, Type 2 Diabetes Mellitus for 5 years.",
+            "confidence": 100.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The specific value and trend of the mildly elevated troponin are not provided, which is crucial for assessing the acuity and severity of myocardial injury and guiding immediate management.",
+            "related_specialist": null,
+            "impact": "high"
+          }
+        ],
+        "recommendations": [
+          "Urgent evaluation for acute coronary syndrome, including serial cardiac biomarkers and consideration for coronary angiography.",
+          "Initiation and optimization of guideline-directed medical therapy for heart failure with reduced ejection fraction (HFrEF).",
+          "Comprehensive risk factor modification, focusing on blood pressure control, lipid management, and lifestyle interventions."
+        ]
+      },
+      "Gastroenterologist": {
+        "specialist": "Gastroenterologist",
+        "primary_assessment": "Patient exhibits multiple metabolic risk factors (Type 2 Diabetes, dyslipidemia, overweight) predisposing to Non-Alcoholic Fatty Liver Disease (NAFLD), gallstones, and pancreatitis. GI assessment is significantly limited by the absence of reported GI symptoms or specific GI investigations.",
+        "overall_confidence": 70.0,
+        "key_findings": [
+          {
+            "summary": "Significant risk factors for Non-Alcoholic Fatty Liver Disease (NAFLD).",
+            "quote": "Type 2 Diabetes, dyslipidemia, overweight (BMI 28.0), and occasional fatty foods.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Increased risk for pancreatitis due to metabolic factors.",
+            "quote": "Type 2 Diabetes, Triglycerides 190 mg/dL, and BMI 28.0.",
+            "confidence": 85.0
+          },
+          {
+            "summary": "Potential for medication-related gastrointestinal side effects.",
+            "quote": "Medications: Metformin, Lisinopril, Atorvastatin.",
+            "confidence": 75.0
+          },
+          {
+            "summary": "Absence of specific gastrointestinal symptoms or investigations in the report.",
+            "quote": "Patient presents with chest pain, shortness of breath, and fatigue.",
+            "confidence": 100.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The report lacks any specific gastrointestinal symptoms, physical examination findings, or laboratory/imaging investigations relevant to the GI tract, liver, or pancreas, despite multiple metabolic risk factors.",
+            "related_specialist": null,
+            "impact": "high"
+          }
+        ],
+        "recommendations": [
+          "Order liver function tests (LFTs) and an abdominal ultrasound to screen for NAFLD and gallstones.",
+          "Counsel patient on lifestyle modifications, including dietary changes to reduce fatty food intake and increase physical activity, for weight management and metabolic control.",
+          "Discuss potential gastrointestinal side effects of current medications, especially Metformin, with the patient.",
+          "Monitor for symptoms suggestive of pancreatitis and consider amylase/lipase if clinically indicated."
+        ]
+      },
+      "Psychiatrist": {
+        "specialist": "Psychiatrist",
+        "primary_assessment": "The provided medical report primarily details physical symptoms and medical history, lacking direct psychiatric assessment. However, several factors such as chronic medical conditions, reported fatigue, and lifestyle behaviors indicate a high need for a comprehensive psychiatric evaluation to screen for mood, anxiety, and cognitive disorders, and to assess the psychosocial impact of his health status.",
+        "overall_confidence": 40.0,
+        "key_findings": [
+          {
+            "summary": "The patient reports fatigue, a non-specific symptom that frequently co-occurs with or can be indicative of underlying mood disorders, warranting further psychiatric exploration.",
+            "quote": "fatigue that has worsened over the past month.",
+            "confidence": 70.0
+          },
+          {
+            "summary": "Significant behavioral health factors are present, including a sedentary lifestyle and dietary habits, which can negatively impact both physical and mental well-being and adherence to treatment.",
+            "quote": "Sedentary lifestyle, former smoker... occasional consumption of fatty foods.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "The patient's multiple chronic medical conditions (hypertension, Type 2 Diabetes Mellitus, and emerging cardiac issues) are well-established risk factors for developing mood and anxiety disorders.",
+            "quote": "Hypertension for 10 years, Type 2 Diabetes Mellitus for 5 years.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "No psychotropic medications are listed among the patient's current prescriptions, indicating an absence of current psychiatric treatment despite significant medical comorbidities and potential psychiatric symptoms.",
+            "quote": "Medications: Metformin, Lisinopril, Atorvastatin.",
+            "confidence": 85.0
+          }
+        ],
+        "contradictions": [],
+        "recommendations": [
+          "Conduct a comprehensive psychiatric evaluation, including screening for depression, anxiety, and cognitive impairment.",
+          "Assess the patient's coping mechanisms, stress levels, and adherence to medical regimens, particularly regarding lifestyle modifications.",
+          "Explore the psychosocial impact of chronic illness and lifestyle factors on the patient's mental well-being and quality of life.",
+          "Consider psychoeducation and behavioral interventions to support lifestyle changes and improve overall mental health."
+        ]
+      }
+    },
+    "teamSummary": null,
+    "treatmentOptions": null
+  }
+}

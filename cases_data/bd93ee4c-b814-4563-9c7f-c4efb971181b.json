@@ -1,0 +1,478 @@
+{
+  "id": "bd93ee4c-b814-4563-9c7f-c4efb971181b",
+  "patientId": "100232",
+  "name": "Anna Thompson",
+  "age": 35,
+  "gender": "Female",
+  "chiefComplaint": "The patient presents with abdominal bloating, irregular bowel movements, and cramping\nabdominal pain for the past six months.",
+  "familyHistory": "No significant gastrointestinal disease.",
+  "personalHistory": "Seasonal allergies.",
+  "lifestyle": "Balanced diet, occasional alcohol, no smoking.",
+  "medications": "Antihistamines as needed.",
+  "colonoscopy": "No structural abnormalities.",
+  "stoolStudies": "Negative for pathogens.",
+  "bloodTests": "Blood Tests: Normal CBC, normal CRP.",
+  "vitals": "BP 118/76 mmHg, HR 74 bpm, BMI 22.0.",
+  "abdominalExam": "Mild tenderness in left lower quadrant, no rebound.",
+  "status": "Completed",
+  "createdAt": "2025-11-14T19:51:39.973759",
+  "updatedAt": "2025-11-14T19:53:00.654415",
+  "agentResults": {
+    "specialists": {
+      "Internist": {
+        "specialist": "Internist",
+        "primary_assessment": "The patient presents with chronic functional gastrointestinal symptoms, with extensive organic pathology ruled out, and overall systemic health appears stable.",
+        "overall_confidence": 85.0,
+        "key_findings": [
+          {
+            "summary": "Extensive diagnostic workup has effectively excluded common organic gastrointestinal diseases.",
+            "quote": "No structural abnormalities. Negative for pathogens.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Patient experiences chronic abdominal symptoms consistent with a functional gastrointestinal disorder.",
+            "quote": "abdominal bloating, irregular bowel movements, and cramping abdominal pain for the past six months.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "Systemic inflammatory markers and vital signs are within normal limits, indicating no acute or chronic systemic illness.",
+            "quote": "Normal CBC, normal CRP.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "History includes seasonal allergies and as-needed antihistamine use, suggesting a potential atopic predisposition.",
+            "quote": "Seasonal allergies. Antihistamines as needed.",
+            "confidence": 75.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "Despite chronic and bothersome gastrointestinal symptoms, the report lacks assessment for common systemic triggers like food intolerances or psychosocial factors.",
+            "related_specialist": "Gastroenterologist",
+            "impact": "medium"
+          }
+        ],
+        "recommendations": [
+          "Initiate a detailed dietary history and consider a trial of an elimination diet to identify potential food sensitivities.",
+          "Screen for psychosocial stressors, anxiety, or depression, given the strong gut-brain axis connection in functional disorders.",
+          "Review the frequency and type of antihistamine use for any potential subtle systemic effects on gut motility.",
+          "Consider a diagnosis of Irritable Bowel Syndrome (IBS) and discuss systemic management strategies."
+        ]
+      },
+      "Neurologist": {
+        "specialist": "Neurologist",
+        "primary_assessment": "The patient's report provides no direct neurological symptoms or findings, making a comprehensive neurological assessment impossible. The primary complaint is gastrointestinal, and without further neurological history or examination, a neurological etiology for the reported symptoms is not supported by the current data.",
+        "overall_confidence": 35.0,
+        "key_findings": [
+          {
+            "summary": "No direct neurological symptoms are reported in the chief complaint.",
+            "quote": "abdominal bloating, irregular bowel movements, and cramping abdominal pain for the past six months.",
+            "confidence": 100.0
+          },
+          {
+            "summary": "The provided examination details do not include any neurological assessment.",
+            "quote": "Abdominal Exam: Mild tenderness in left lower quadrant, no rebound.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Vital signs are normal, with no indication of autonomic instability.",
+            "quote": "BP 118/76 mmHg, HR 74 bpm, BMI 22.0.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Routine blood tests are normal, but specific neurological markers are absent.",
+            "quote": "Blood Tests: Normal CBC, normal CRP.",
+            "confidence": 90.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The report lacks any specific neurological history or examination findings, which are crucial for a neurological assessment.",
+            "related_specialist": "Neurologist",
+            "impact": "high"
+          }
+        ],
+        "recommendations": [
+          "Conduct a comprehensive neurological history, including sensory, motor, and autonomic symptoms.",
+          "Perform a detailed neurological examination, assessing cranial nerves, motor, sensory, reflexes, and gait.",
+          "Consider specific laboratory investigations for neuropathy (e.g., B12, glucose, thyroid panel) if indicated by history or exam.",
+          "Evaluate for autonomic dysfunction, especially if gastrointestinal symptoms persist without other identified causes."
+        ]
+      },
+      "Cardiologist": {
+        "specialist": "Cardiologist",
+        "primary_assessment": "Overall, Anna Thompson, a 35-year-old female, presents with a favorable cardiovascular profile based on available data. She exhibits normal blood pressure, heart rate, BMI, and an absence of systemic inflammation. However, a comprehensive cardiovascular risk assessment is limited by missing key information regarding family history of cardiovascular disease, lipid profile, and glucose levels.",
+        "overall_confidence": 85.0,
+        "key_findings": [
+          {
+            "summary": "The patient demonstrates normal hemodynamic parameters, with blood pressure and heart rate well within healthy ranges, indicating good systemic perfusion.",
+            "quote": "BP 118/76 mmHg, HR 74 bpm",
+            "confidence": 100.0
+          },
+          {
+            "summary": "Anna maintains a favorable lifestyle and anthropometric profile, which significantly contributes to a lower cardiovascular risk.",
+            "quote": "BMI 22.0... Balanced diet, occasional alcohol, no smoking.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Blood tests indicate an absence of significant systemic inflammation, further supporting a positive cardiovascular outlook.",
+            "quote": "Blood Tests: Normal CBC, normal CRP.",
+            "confidence": 95.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The family history section only addresses gastrointestinal disease, omitting crucial information regarding cardiovascular disease, which is vital for a complete risk assessment.",
+            "related_specialist": null,
+            "impact": "medium"
+          },
+          {
+            "description": "A lipid profile (cholesterol, triglycerides) and fasting glucose levels are not provided, limiting the ability to perform a comprehensive cardiovascular risk stratification.",
+            "related_specialist": null,
+            "impact": "medium"
+          },
+          {
+            "description": "No direct cardiac imaging (e.g., echocardiogram) or electrocardiogram (ECG) results are available to assess heart structure or electrical activity.",
+            "related_specialist": null,
+            "impact": "low"
+          }
+        ],
+        "recommendations": [
+          "Obtain a detailed family history focusing on cardiovascular diseases (e.g., early heart attack, stroke, sudden cardiac death).",
+          "Recommend a baseline lipid panel and fasting glucose to complete the cardiovascular risk assessment.",
+          "Encourage continuation of current healthy lifestyle choices, including a balanced diet and no smoking.",
+          "Consider a baseline electrocardiogram (ECG) as part of a routine health check, especially if any cardiac symptoms develop."
+        ]
+      },
+      "Gastroenterologist": {
+        "specialist": "Gastroenterologist",
+        "primary_assessment": "The patient presents with chronic abdominal symptoms including bloating, irregular bowel movements, and cramping pain, with a thorough initial workup revealing no structural abnormalities, infection, or significant inflammation.",
+        "overall_confidence": 85.0,
+        "key_findings": [
+          {
+            "summary": "Chronic abdominal symptoms including bloating, irregular bowel movements, and cramping pain have been present for six months.",
+            "quote": "abdominal bloating, irregular bowel movements, and cramping abdominal pain for the past six months.",
+            "confidence": 100.0
+          },
+          {
+            "summary": "Colonoscopy revealed no structural abnormalities in the colon.",
+            "quote": "Colonoscopy revealed no structural abnormalities.",
+            "confidence": 100.0
+          },
+          {
+            "summary": "Laboratory tests indicate no evidence of infection or significant inflammation.",
+            "quote": "Stool Studies: Negative for pathogens. Blood Tests: Normal CBC, normal CRP.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Physical examination showed mild tenderness in the left lower quadrant without rebound.",
+            "quote": "Mild tenderness in left lower quadrant, no rebound.",
+            "confidence": 90.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The description of 'irregular bowel movements' lacks specificity regarding frequency, consistency (e.g., Bristol stool scale), and predominant pattern (constipation, diarrhea, or alternating).",
+            "related_specialist": null,
+            "impact": "high"
+          },
+          {
+            "description": "Detailed dietary history, including potential triggers or fiber intake, and assessment of psychosocial factors (e.g., stress) are not documented.",
+            "related_specialist": null,
+            "impact": "medium"
+          }
+        ],
+        "recommendations": [
+          "Obtain a more detailed history of bowel habits, including frequency, consistency, urgency, and any precipitating or alleviating factors.",
+          "Conduct a comprehensive dietary assessment, including potential food triggers (e.g., FODMAPs) and fiber intake.",
+          "Assess for psychosocial factors such as stress, anxiety, or depression, which commonly influence functional gastrointestinal symptoms.",
+          "Consider a diagnosis of Irritable Bowel Syndrome (IBS) given the chronic symptoms, normal colonoscopy, and negative inflammatory markers.",
+          "Initiate symptomatic management strategies, which may include dietary modifications, fiber supplementation, and antispasmodics as appropriate."
+        ]
+      },
+      "Psychiatrist": {
+        "specialist": "Psychiatrist",
+        "primary_assessment": "The patient presents with chronic, medically unexplained gastrointestinal symptoms over six months. Extensive medical workup has been negative for organic pathology. This presentation strongly suggests a potential functional somatic syndrome, such as Irritable Bowel Syndrome (IBS), which often has significant psychiatric comorbidity. The current report lacks any information regarding the patient's psychological state, mood, anxiety, or stress levels, which are crucial for a comprehensive psychiatric evaluation.",
+        "overall_confidence": 75.0,
+        "key_findings": [
+          {
+            "summary": "Chronic gastrointestinal symptoms persist for six months without clear organic etiology, suggesting a potential functional somatic syndrome.",
+            "quote": "abdominal bloating, irregular bowel movements, and cramping abdominal pain for the past six months.",
+            "confidence": 85.0
+          },
+          {
+            "summary": "Extensive medical investigations have yielded no significant structural or pathological findings to explain the patient's chronic GI complaints.",
+            "quote": "Colonoscopy: No structural abnormalities. Stool Studies: Negative for pathogens. Normal CBC, normal CRP.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "The report lacks any information regarding the patient's mood, anxiety, stress levels, or psychological state, and no psychotropic medications are noted.",
+            "quote": "Medications: Antihistamines as needed.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "The patient's healthy lifestyle and normal vital signs do not point to obvious physical contributors, emphasizing the need to explore psychological factors.",
+            "quote": "Balanced diet, occasional alcohol, no smoking. Vitals normal.",
+            "confidence": 70.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The comprehensive medical workup for chronic GI symptoms is presented without any assessment of the patient's psychological state, mood, or anxiety, creating a significant diagnostic gap.",
+            "related_specialist": null,
+            "impact": "high"
+          }
+        ],
+        "recommendations": [
+          "Conduct a comprehensive psychiatric evaluation, including assessment for mood disorders (e.g., depression), anxiety disorders (e.g., generalized anxiety, health anxiety), somatization, and stress-related disorders.",
+          "Explore the temporal relationship between symptom onset and any significant life stressors or psychological events.",
+          "Assess the patient's coping mechanisms, illness beliefs, and functional impairment related to her GI symptoms.",
+          "Consider screening for functional gastrointestinal disorders (FGIDs) like Irritable Bowel Syndrome (IBS), which often have significant psychiatric comorbidity."
+        ]
+      }
+    },
+    "teamSummary": {
+      "overall_confidence": 82.0,
+      "diagnoses": [
+        {
+          "rank": 1,
+          "condition": "Irritable Bowel Syndrome (IBS)",
+          "confidence": 90.0,
+          "primary_reason": "The patient presents with chronic abdominal bloating, irregular bowel movements, and cramping pain for six months, with extensive diagnostic workup (colonoscopy, stool studies, CBC, CRP) effectively ruling out organic pathology, infection, and significant inflammation. This clinical picture strongly aligns with the diagnostic criteria for Irritable Bowel Syndrome.",
+          "specialist_support": [
+            {
+              "specialist": "Gastroenterologist",
+              "confidence": 85.0,
+              "evidence": "Consider a diagnosis of Irritable Bowel Syndrome (IBS) given the chronic symptoms, normal colonoscopy, and negative inflammatory markers."
+            },
+            {
+              "specialist": "Internist",
+              "confidence": 85.0,
+              "evidence": "Consider a diagnosis of Irritable Bowel Syndrome (IBS) and discuss systemic management strategies."
+            },
+            {
+              "specialist": "Psychiatrist",
+              "confidence": 75.0,
+              "evidence": "This presentation strongly suggests a potential functional somatic syndrome, such as Irritable Bowel Syndrome (IBS), which often has significant psychiatric comorbidity."
+            }
+          ],
+          "contradictions": [
+            {
+              "description": "The description of 'irregular bowel movements' lacks specificity regarding frequency, consistency (e.g., Bristol stool scale), and predominant pattern (constipation, diarrhea, or alternating), which is crucial for IBS subtyping.",
+              "specialist": "Gastroenterologist",
+              "impact": "high"
+            },
+            {
+              "description": "Despite chronic and bothersome gastrointestinal symptoms, the report lacks assessment for common systemic triggers like food intolerances or psychosocial factors.",
+              "specialist": "Internist",
+              "impact": "medium"
+            }
+          ],
+          "next_steps": [
+            "Obtain a more detailed history of bowel habits, including frequency, consistency, urgency, and any precipitating or alleviating factors.",
+            "Conduct a comprehensive dietary assessment, including potential food triggers (e.g., FODMAPs) and fiber intake.",
+            "Assess for psychosocial factors such as stress, anxiety, or depression, which commonly influence functional gastrointestinal symptoms.",
+            "Initiate symptomatic management strategies, which may include dietary modifications, fiber supplementation, and antispasmodics as appropriate."
+          ]
+        },
+        {
+          "rank": 2,
+          "condition": "Functional Gastrointestinal Disorder (FGID) - Unspecified",
+          "confidence": 85.0,
+          "primary_reason": "The patient's chronic abdominal symptoms (bloating, irregular bowel movements, cramping pain) persist for six months despite extensive medical investigations yielding no significant structural, infectious, or inflammatory findings. This strongly points to a functional origin, making an unspecified FGID a highly probable diagnosis until more specific criteria for IBS or other FGIDs are fully met.",
+          "specialist_support": [
+            {
+              "specialist": "Internist",
+              "confidence": 85.0,
+              "evidence": "The patient presents with chronic functional gastrointestinal symptoms, with extensive organic pathology ruled out, and overall systemic health appears stable."
+            },
+            {
+              "specialist": "Gastroenterologist",
+              "confidence": 85.0,
+              "evidence": "The patient presents with chronic abdominal symptoms... with a thorough initial workup revealing no structural abnormalities, infection, or significant inflammation."
+            },
+            {
+              "specialist": "Psychiatrist",
+              "confidence": 75.0,
+              "evidence": "Chronic, medically unexplained gastrointestinal symptoms over six months... strongly suggests a potential functional somatic syndrome..."
+            }
+          ],
+          "contradictions": [
+            {
+              "description": "Detailed dietary history, including potential triggers or fiber intake, and assessment of psychosocial factors (e.g., stress) are not documented, which are crucial for understanding and managing FGIDs.",
+              "specialist": "Gastroenterologist",
+              "impact": "medium"
+            },
+            {
+              "description": "Despite chronic and bothersome gastrointestinal symptoms, the report lacks assessment for common systemic triggers like food intolerances or psychosocial factors.",
+              "specialist": "Internist",
+              "impact": "medium"
+            }
+          ],
+          "next_steps": [
+            "Initiate a detailed dietary history and consider a trial of an elimination diet to identify potential food sensitivities.",
+            "Screen for psychosocial stressors, anxiety, or depression, given the strong gut-brain axis connection in functional disorders.",
+            "Review the frequency and type of antihistamine use for any potential subtle systemic effects on gut motility.",
+            "Implement a holistic management plan addressing diet, lifestyle, and stress."
+          ]
+        },
+        {
+          "rank": 3,
+          "condition": "Anxiety/Depression with Somatic Symptoms",
+          "confidence": 70.0,
+          "primary_reason": "The patient's chronic, medically unexplained gastrointestinal symptoms, in the absence of organic pathology, strongly suggest a potential functional somatic syndrome. Such conditions frequently have significant psychiatric comorbidity, and the current report lacks any assessment of the patient's psychological state, mood, anxiety, or stress levels, representing a critical diagnostic gap.",
+          "specialist_support": [
+            {
+              "specialist": "Psychiatrist",
+              "confidence": 75.0,
+              "evidence": "The patient presents with chronic, medically unexplained gastrointestinal symptoms... This presentation strongly suggests a potential functional somatic syndrome, such as Irritable Bowel Syndrome (IBS), which often has significant psychiatric comorbidity."
+            },
+            {
+              "specialist": "Internist",
+              "confidence": 85.0,
+              "evidence": "Screen for psychosocial stressors, anxiety, or depression, given the strong gut-brain axis connection in functional disorders."
+            },
+            {
+              "specialist": "Gastroenterologist",
+              "confidence": 85.0,
+              "evidence": "Assess for psychosocial factors such as stress, anxiety, or depression, which commonly influence functional gastrointestinal symptoms."
+            }
+          ],
+          "contradictions": [
+            {
+              "description": "The comprehensive medical workup for chronic GI symptoms is presented without any assessment of the patient's psychological state, mood, or anxiety, creating a significant diagnostic gap.",
+              "specialist": "Psychiatrist",
+              "impact": "high"
+            }
+          ],
+          "next_steps": [
+            "Conduct a comprehensive psychiatric evaluation, including assessment for mood disorders (e.g., depression), anxiety disorders (e.g., generalized anxiety, health anxiety), somatization, and stress-related disorders.",
+            "Explore the temporal relationship between symptom onset and any significant life stressors or psychological events.",
+            "Assess the patient's coping mechanisms, illness beliefs, and functional impairment related to her GI symptoms.",
+            "Consider psychological interventions (e.g., Cognitive Behavioral Therapy, gut-directed hypnotherapy) if indicated."
+          ]
+        }
+      ],
+      "consensus_highlights": [
+        "Extensive diagnostic workup has effectively excluded common organic gastrointestinal diseases, infections, and significant inflammation.",
+        "The patient's chronic abdominal symptoms are highly consistent with a functional gastrointestinal disorder.",
+        "Irritable Bowel Syndrome (IBS) is a strong diagnostic consideration by multiple specialists.",
+        "There is a critical need for detailed dietary history, assessment of psychosocial factors (stress, anxiety, depression), and a comprehensive psychiatric evaluation.",
+        "The patient's overall systemic health (cardiovascular, neurological) appears stable based on available, albeit limited, data."
+      ],
+      "disagreement_notes": [
+        "The Neurologist's assessment is severely limited by the absence of any neurological history or examination findings, preventing a meaningful contribution to the primary complaint.",
+        "The Cardiologist's assessment is limited by missing key cardiovascular risk factors (family history, lipid profile, glucose levels) and direct cardiac imaging/ECG.",
+        "There is a significant gap in the specificity of reported bowel movements, which is crucial for subtyping functional GI disorders.",
+        "The lack of a comprehensive psychological assessment represents a major diagnostic gap, despite the strong suspicion of psychiatric comorbidity in functional GI disorders."
+      ],
+      "specialist_confidence": {
+        "Internist": 85.0,
+        "Neurologist": 35.0,
+        "Cardiologist": 85.0,
+        "Gastroenterologist": 85.0,
+        "Psychiatrist": 75.0
+      }
+    },
+    "treatmentOptions": [
+      {
+        "option_number": 1,
+        "match_percentage": 90,
+        "primary_name": "Integrated Dietary & Lifestyle Management with Symptomatic Relief",
+        "overview": "This option focuses on initial, non-pharmacological and symptomatic pharmacological interventions to manage Irritable Bowel Syndrome (IBS) or Functional Gastrointestinal Disorder (FGID) symptoms. It emphasizes dietary modifications, fiber supplementation, and as-needed medications for symptom control, while also initiating assessment for systemic triggers and psychosocial factors.",
+        "modality": "Lifestyle, Dietary, Pharmacological (symptomatic)",
+        "success_rate": 70,
+        "duration": "Ongoing",
+        "recovery_time": "Weeks to months for initial symptom improvement",
+        "cost_estimate": "Low to Medium (dietary changes, OTC medications, potential nutritionist fees)",
+        "side_effects": [
+          "Potential for dietary restrictions to impact nutrient intake (if not managed well)",
+          "Mild side effects from antispasmodics (e.g., dry mouth, constipation)",
+          "Increased gas/bloating with fiber supplementation initially"
+        ],
+        "recommended_for": [
+          "Patients with confirmed or highly suspected Irritable Bowel Syndrome (IBS) or Functional Gastrointestinal Disorder (FGID)",
+          "Individuals willing to make significant dietary and lifestyle changes",
+          "Patients seeking initial symptom control without immediate advanced pharmacotherapy"
+        ],
+        "procedure_steps": [
+          "Conduct a detailed dietary history, including potential food triggers (e.g., FODMAPs) and fiber intake.",
+          "Consider a trial of a low-FODMAP diet under guidance, followed by reintroduction.",
+          "Initiate fiber supplementation (e.g., psyllium) to regulate bowel movements.",
+          "Prescribe antispasmodics (e.g., dicyclomine, hyoscyamine) for cramping pain as needed.",
+          "Encourage regular physical activity and stress reduction techniques (e.g., mindfulness, yoga).",
+          "Screen for psychosocial stressors, anxiety, or depression."
+        ],
+        "notes": [
+          "Individualized dietary approach is crucial; a registered dietitian can be beneficial.",
+          "Symptom diary can help identify triggers and track response to interventions.",
+          "Close monitoring for symptom improvement and adjustment of strategies is essential."
+        ]
+      },
+      {
+        "option_number": 2,
+        "match_percentage": 85,
+        "primary_name": "Psychological Evaluation & Gut-Brain Axis Therapy",
+        "overview": "Given the strong suspicion of psychiatric comorbidity and the gut-brain axis connection in functional gastrointestinal disorders, this option prioritizes a comprehensive psychiatric evaluation and the initiation of mind-body therapies. It aims to address underlying psychological factors that may exacerbate or contribute to GI symptoms.",
+        "modality": "Psychological, Behavioral",
+        "success_rate": 65,
+        "duration": "Weeks to months (course of therapy)",
+        "recovery_time": "Ongoing process, symptom improvement over weeks to months",
+        "cost_estimate": "Medium to High (therapy sessions, potential psychiatric medication)",
+        "side_effects": [
+          "Emotional discomfort during therapy sessions",
+          "Potential side effects from psychotropic medications if prescribed (e.g., nausea, fatigue, weight changes)"
+        ],
+        "recommended_for": [
+          "Patients with chronic, medically unexplained GI symptoms (IBS/FGID)",
+          "Individuals with suspected or diagnosed anxiety, depression, or high stress levels",
+          "Patients whose symptoms are significantly impacted by psychological factors"
+        ],
+        "procedure_steps": [
+          "Conduct a comprehensive psychiatric evaluation to assess for mood disorders, anxiety disorders, somatization, and stress-related disorders.",
+          "Explore the temporal relationship between symptom onset and any significant life stressors or psychological events.",
+          "Initiate Cognitive Behavioral Therapy (CBT) or gut-directed hypnotherapy.",
+          "Consider pharmacotherapy for anxiety or depression (e.g., low-dose tricyclic antidepressants or SSRIs) if indicated, which can also modulate gut function.",
+          "Assess the patient's coping mechanisms and illness beliefs."
+        ],
+        "notes": [
+          "Collaboration between gastroenterology and psychiatry is highly recommended for optimal outcomes.",
+          "Patient education on the gut-brain axis is important to foster engagement in therapy.",
+          "Therapy may be delivered individually or in group settings."
+        ]
+      },
+      {
+        "option_number": 3,
+        "match_percentage": 75,
+        "primary_name": "Advanced GI Symptom Management & Diagnostic Refinement",
+        "overview": "This option focuses on further refining the diagnosis of IBS subtype and implementing targeted pharmacotherapy for persistent or severe symptoms that have not adequately responded to initial dietary and lifestyle interventions. It also includes a review of current medications for potential subtle effects.",
+        "modality": "Diagnostic, Pharmacological",
+        "success_rate": 60,
+        "duration": "Short-term for diagnostics, ongoing for medication",
+        "recovery_time": "Weeks for medication efficacy to be assessed",
+        "cost_estimate": "Medium (specialized tests, prescription medications)",
+        "side_effects": [
+          "Medication-specific side effects (e.g., diarrhea, constipation, nausea, abdominal pain)",
+          "Potential for drug interactions"
+        ],
+        "recommended_for": [
+          "Patients with persistent or severe IBS/FGID symptoms despite initial dietary and lifestyle management",
+          "Individuals requiring more specific classification of their bowel habits (IBS-C, IBS-D, IBS-M)",
+          "Patients who may benefit from targeted prescription medications"
+        ],
+        "procedure_steps": [
+          "Obtain a more detailed history of bowel habits, including frequency, consistency (using Bristol Stool Scale), urgency, and any precipitating or alleviating factors to subtype IBS.",
+          "Review the frequency and type of antihistamine use for any potential subtle systemic effects on gut motility.",
+          "Consider specific pharmacotherapy based on IBS subtype: e.g., rifaximin for IBS-D, linaclotide or lubiprostone for IBS-C, or alosetron (with strict criteria) for severe IBS-D in women.",
+          "Evaluate for small intestinal bacterial overgrowth (SIBO) if symptoms are predominantly bloating and gas, and consider breath testing.",
+          "Re-evaluate for other less common organic causes if symptoms change or new alarm features develop."
+        ],
+        "notes": [
+          "Pharmacological treatments should be chosen based on the predominant symptom and IBS subtype.",
+          "Close monitoring for medication efficacy and side effects is crucial.",
+          "Patient education on medication use and potential side effects is vital."
+        ]
+      }
+    ]
+  }
+}

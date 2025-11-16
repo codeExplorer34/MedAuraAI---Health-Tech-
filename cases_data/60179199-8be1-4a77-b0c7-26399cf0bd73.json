@@ -1,0 +1,495 @@
+{
+  "id": "60179199-8be1-4a77-b0c7-26399cf0bd73",
+  "patientId": "100237",
+  "name": "Kevin Adams",
+  "age": 60,
+  "gender": "Male",
+  "chiefComplaint": "The patient reports burning sensation in feet, numbness, and occasional tingling for the past 8\nmonths.",
+  "familyHistory": "Father with type 2 diabetes.",
+  "personalHistory": "Type 2 diabetes diagnosed at 52.",
+  "lifestyle": "Smoker, overweight, sedentary.",
+  "medications": "Metformin 1000 mg daily, Insulin (basal).",
+  "colonoscopy": "",
+  "stoolStudies": "",
+  "bloodTests": "Lab and Diagnostic Results:\nHbA1c: 8.7%.\nNerve Conduction Studies: Peripheral neuropathy confirmed.\nRenal Function: Mildly reduced eGFR.",
+  "vitals": "BP 142/88 mmHg, HR 88 bpm, BMI 31.4.",
+  "abdominalExam": "",
+  "status": "Completed",
+  "createdAt": "2025-11-15T04:05:58.111747",
+  "updatedAt": "2025-11-15T04:07:30.857239",
+  "agentResults": {
+    "specialists": {
+      "Internist": {
+        "specialist": "Internist",
+        "primary_assessment": "The patient presents with poorly controlled Type 2 Diabetes Mellitus, evidenced by elevated HbA1c, leading to established systemic complications including peripheral neuropathy and early renal impairment. Significant cardiovascular risk factors, including hypertension, obesity, and smoking, remain unaddressed.",
+        "overall_confidence": 95.0,
+        "key_findings": [
+          {
+            "summary": "Poorly controlled Type 2 Diabetes Mellitus, indicating inadequate systemic glycemic management.",
+            "quote": "HbA1c: 8.7%.",
+            "confidence": 98.0
+          },
+          {
+            "summary": "Established diabetic peripheral neuropathy, a common systemic complication of diabetes.",
+            "quote": "Peripheral neuropathy confirmed.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Evidence of early diabetic nephropathy or renal impairment, affecting systemic kidney function.",
+            "quote": "Mildly reduced eGFR.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "Multiple unaddressed cardiovascular risk factors including hypertension, obesity, and lifestyle choices.",
+            "quote": "BP 142/88 mmHg, HR 88 bpm, BMI 31.4.",
+            "confidence": 92.0
+          }
+        ],
+        "contradictions": [],
+        "recommendations": [
+          "Intensify glycemic management to achieve target HbA1c, potentially adjusting Metformin and insulin regimen.",
+          "Initiate or optimize antihypertensive therapy to achieve blood pressure goals and reduce cardiovascular risk.",
+          "Implement comprehensive lifestyle modifications including smoking cessation, structured exercise, and dietary changes for weight management.",
+          "Monitor renal function closely and consider nephroprotective strategies, such as ACE inhibitors or ARBs, if appropriate."
+        ]
+      },
+      "Neurologist": {
+        "specialist": "Neurologist",
+        "primary_assessment": "Patient presents with symptomatic and objectively confirmed peripheral neuropathy, highly consistent with diabetic polyneuropathy given long-standing Type 2 Diabetes and poor glycemic control.",
+        "overall_confidence": 90.0,
+        "key_findings": [
+          {
+            "summary": "Patient reports classic sensory symptoms indicative of peripheral neuropathy.",
+            "quote": "burning sensation in feet, numbness, and occasional tingling",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Nerve conduction studies objectively confirm the presence of peripheral neuropathy.",
+            "quote": "Nerve Conduction Studies: Peripheral neuropathy confirmed.",
+            "confidence": 100.0
+          },
+          {
+            "summary": "Poorly controlled Type 2 Diabetes is a significant etiological factor for neuropathy.",
+            "quote": "Type 2 diabetes diagnosed at 52. HbA1c: 8.7%.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Mild renal impairment may contribute to or exacerbate the neuropathy.",
+            "quote": "Renal Function: Mildly reduced eGFR.",
+            "confidence": 80.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "A detailed neurological examination (e.g., reflexes, sensory mapping, motor strength, gait) is missing.",
+            "related_specialist": null,
+            "impact": "high"
+          },
+          {
+            "description": "The specific type or pattern of peripheral neuropathy (e.g., small fiber vs. large fiber, focal vs. diffuse) is not detailed from the NCS report.",
+            "related_specialist": null,
+            "impact": "medium"
+          },
+          {
+            "description": "No mention of screening for autonomic neuropathy or other common causes of neuropathy.",
+            "related_specialist": null,
+            "impact": "medium"
+          }
+        ],
+        "recommendations": [
+          "Perform a comprehensive neurological examination including sensory, motor, reflex, and gait assessment.",
+          "Consider further electrophysiological studies (e.g., quantitative sensory testing, autonomic testing) to characterize neuropathy.",
+          "Optimize glycemic control to prevent progression of diabetic neuropathy.",
+          "Initiate symptomatic management for neuropathic pain (e.g., gabapentin, pregabalin, duloxetine).",
+          "Screen for autonomic neuropathy, given the long-standing diabetes.",
+          "Evaluate for other potential causes of neuropathy (e.g., B12 deficiency, thyroid dysfunction, alcohol use)."
+        ]
+      },
+      "Cardiologist": {
+        "specialist": "Cardiologist",
+        "primary_assessment": "The patient, a 60-year-old male, presents with a significantly elevated cardiovascular risk profile due driven by poorly controlled type 2 diabetes, uncontrolled hypertension, obesity, smoking, and evidence of microvascular complications. A comprehensive cardiac evaluation is urgently warranted.",
+        "overall_confidence": 90.0,
+        "key_findings": [
+          {
+            "summary": "The patient exhibits a high cardiovascular risk profile due to multiple modifiable factors including smoking, obesity, and a sedentary lifestyle.",
+            "quote": "Smoker, overweight, sedentary... BP 142/88 mmHg, BMI 31.4.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Despite medication, the HbA1c of 8.7% indicates suboptimal glycemic control, significantly increasing cardiovascular risk.",
+            "quote": "Type 2 diabetes diagnosed at 52... HbA1c: 8.7%.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "Evidence of diabetic microvascular complications, including peripheral neuropathy and mildly reduced eGFR, suggests long-standing poor control and increased macrovascular risk.",
+            "quote": "Peripheral neuropathy confirmed... Mildly reduced eGFR.",
+            "confidence": 85.0
+          },
+          {
+            "summary": "The patient's blood pressure of 142/88 mmHg indicates Stage 1 hypertension, a critical modifiable risk factor.",
+            "quote": "Vitals: BP 142/88 mmHg.",
+            "confidence": 90.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "No information on cardiac structure, valvular function, or global systolic/diastolic function (e.g., echocardiogram results) is provided, limiting a complete cardiac assessment.",
+            "related_specialist": null,
+            "impact": "high"
+          },
+          {
+            "description": "A complete lipid profile (total cholesterol, LDL, HDL, triglycerides) is absent, which is essential for comprehensive cardiovascular risk stratification.",
+            "related_specialist": null,
+            "impact": "high"
+          },
+          {
+            "description": "No electrocardiogram (ECG) findings are available to assess cardiac rhythm, conduction abnormalities, or signs of ischemia.",
+            "related_specialist": null,
+            "impact": "medium"
+          }
+        ],
+        "recommendations": [
+          "Perform a comprehensive cardiovascular workup including an echocardiogram to assess cardiac structure and function, and an electrocardiogram (ECG) to evaluate rhythm and screen for ischemia.",
+          "Obtain a complete lipid panel (total cholesterol, LDL, HDL, triglycerides) to further stratify cardiovascular risk and guide lipid-lowering therapy.",
+          "Intensify lifestyle modifications focusing on smoking cessation, dietary changes for weight management, and a structured exercise program to address obesity, sedentary lifestyle, and improve glycemic and blood pressure control.",
+          "Optimize glycemic control to achieve an HbA1c target appropriate for the patient's age and comorbidities, in collaboration with an endocrinologist.",
+          "Initiate or adjust antihypertensive therapy to achieve blood pressure targets, considering the presence of diabetes and renal dysfunction."
+        ]
+      },
+      "Gastroenterologist": {
+        "specialist": "Gastroenterologist",
+        "primary_assessment": "The patient presents with uncontrolled Type 2 diabetes and significant risk factors for hepatobiliary and gastrointestinal complications, including obesity, sedentary lifestyle, and smoking. Direct GI symptoms or specific GI diagnostic findings are absent in this report.",
+        "overall_confidence": 70.0,
+        "key_findings": [
+          {
+            "summary": "Uncontrolled Type 2 Diabetes Mellitus, a significant risk factor for various GI and hepatobiliary complications.",
+            "quote": "Type 2 diabetes diagnosed at 52. HbA1c: 8.7%.",
+            "confidence": 95.0
+          },
+          {
+            "summary": "Presence of multiple risk factors for Non-Alcoholic Fatty Liver Disease (NAFLD) and potential Non-Alcoholic Steatohepatitis (NASH).",
+            "quote": "overweight, sedentary. BMI 31.4.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "Active smoking, which significantly increases the risk for various gastrointestinal malignancies and other GI conditions.",
+            "quote": "Lifestyle: Smoker.",
+            "confidence": 95.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The chief complaint and primary findings focus on neurological symptoms (peripheral neuropathy) with no mention of any gastrointestinal symptoms (e.g., abdominal pain, nausea, changes in bowel habits, jaundice), which limits a comprehensive GI assessment.",
+            "related_specialist": "Neurologist",
+            "impact": "medium"
+          }
+        ],
+        "recommendations": [
+          "Order liver function tests (LFTs), fasting lipid panel, and consider abdominal ultrasound to screen for fatty liver disease (NAFLD/NASH) given the patient's risk factors.",
+          "Recommend aggressive dietary and lifestyle modifications, including weight management and increased physical activity, to improve glycemic control and mitigate hepatobiliary risks.",
+          "Strongly counsel on smoking cessation due to its association with increased risk of esophageal, gastric, and pancreatic cancers, as well as other GI pathologies.",
+          "Consider screening for GI complications associated with long-standing diabetes (e.g., gastroparesis, diabetic enteropathy) if any GI symptoms develop."
+        ]
+      },
+      "Psychiatrist": {
+        "specialist": "Psychiatrist",
+        "primary_assessment": "The patient presents with significant chronic medical conditions, including Type 2 Diabetes and peripheral neuropathy, accompanied by chronic pain symptoms. Adverse lifestyle factors are also noted. The report, however, completely lacks any assessment of mood, anxiety, cognitive function, or psychological well-being, which are critical considerations given the patient's medical profile and chronic symptoms.",
+        "overall_confidence": 60.0,
+        "key_findings": [
+          {
+            "summary": "Patient has a significant chronic medical condition.",
+            "quote": "Type 2 diabetes diagnosed at 52.",
+            "confidence": 90.0
+          },
+          {
+            "summary": "Patient reports chronic physical symptoms indicative of pain and discomfort.",
+            "quote": "burning sensation in feet, numbness, and occasional tingling",
+            "confidence": 85.0
+          },
+          {
+            "summary": "Patient exhibits elevated BMI and blood pressure, indicative of health risks.",
+            "quote": "BP 142/88 mmHg, HR 88 bpm, BMI 31.4.",
+            "confidence": 80.0
+          },
+          {
+            "summary": "Medical investigations confirm peripheral neuropathy, a source of chronic pain.",
+            "quote": "Nerve Conduction Studies: Peripheral neuropathy confirmed.",
+            "confidence": 95.0
+          }
+        ],
+        "contradictions": [
+          {
+            "description": "The report provides extensive medical details and findings but completely lacks any assessment of the patient's mood, anxiety, cognitive function, or psychological well-being, despite multiple risk factors for psychiatric comorbidity (chronic illness, chronic pain, adverse lifestyle).",
+            "related_specialist": null,
+            "impact": "high"
+          }
+        ],
+        "recommendations": [
+          "Conduct a comprehensive psychiatric evaluation, including screening for depression, anxiety, and adjustment disorder related to chronic illness and pain.",
+          "Assess the psychological impact of chronic pain and neuropathy on daily functioning, quality of life, and sleep.",
+          "Evaluate coping mechanisms and readiness for behavioral interventions for lifestyle modifications (e.g., smoking cessation, weight management, increased physical activity).",
+          "Consider cognitive screening given age, chronic diabetes, and potential for microvascular complications."
+        ]
+      }
+    },
+    "teamSummary": {
+      "overall_confidence": 97.0,
+      "diagnoses": [
+        {
+          "rank": 1,
+          "condition": "Poorly Controlled Type 2 Diabetes Mellitus with Systemic Complications",
+          "confidence": 98.0,
+          "primary_reason": "Patient presents with long-standing Type 2 Diabetes Mellitus (diagnosed at 52) with an HbA1c of 8.7%, indicating inadequate glycemic control. This has led to established microvascular complications including peripheral neuropathy and early renal impairment, and significantly contributes to a high cardiovascular risk profile.",
+          "specialist_support": [
+            {
+              "specialist": "Internist",
+              "confidence": 98.0,
+              "evidence": "Poorly controlled Type 2 Diabetes Mellitus, indicating inadequate systemic glycemic management. HbA1c: 8.7%."
+            },
+            {
+              "specialist": "Neurologist",
+              "confidence": 95.0,
+              "evidence": "Poorly controlled Type 2 Diabetes is a significant etiological factor for neuropathy. Type 2 diabetes diagnosed at 52. HbA1c: 8.7%."
+            },
+            {
+              "specialist": "Cardiologist",
+              "confidence": 90.0,
+              "evidence": "Despite medication, the HbA1c of 8.7% indicates suboptimal glycemic control, significantly increasing cardiovascular risk."
+            },
+            {
+              "specialist": "Gastroenterologist",
+              "confidence": 95.0,
+              "evidence": "Uncontrolled Type 2 Diabetes Mellitus, a significant risk factor for various GI and hepatobiliary complications."
+            }
+          ],
+          "contradictions": [],
+          "next_steps": [
+            "Intensify glycemic management to achieve target HbA1c, potentially adjusting Metformin and insulin regimen.",
+            "Implement comprehensive lifestyle modifications including smoking cessation, structured exercise, and dietary changes for weight management.",
+            "Monitor renal function closely and consider nephroprotective strategies.",
+            "Optimize antihypertensive therapy to achieve blood pressure goals."
+          ]
+        },
+        {
+          "rank": 2,
+          "condition": "Diabetic Peripheral Neuropathy",
+          "confidence": 99.0,
+          "primary_reason": "The patient's chief complaint of burning sensation, numbness, and tingling in the feet is consistent with peripheral neuropathy. This is objectively confirmed by Nerve Conduction Studies and is highly attributable to the long-standing and poorly controlled Type 2 Diabetes Mellitus.",
+          "specialist_support": [
+            {
+              "specialist": "Neurologist",
+              "confidence": 100.0,
+              "evidence": "Nerve Conduction Studies: Peripheral neuropathy confirmed. Patient reports classic sensory symptoms indicative of peripheral neuropathy."
+            },
+            {
+              "specialist": "Internist",
+              "confidence": 95.0,
+              "evidence": "Established diabetic peripheral neuropathy, a common systemic complication of diabetes."
+            },
+            {
+              "specialist": "Cardiologist",
+              "confidence": 85.0,
+              "evidence": "Evidence of diabetic microvascular complications, including peripheral neuropathy..."
+            },
+            {
+              "specialist": "Psychiatrist",
+              "confidence": 95.0,
+              "evidence": "Medical investigations confirm peripheral neuropathy, a source of chronic pain."
+            }
+          ],
+          "contradictions": [
+            {
+              "description": "A detailed neurological examination (e.g., reflexes, sensory mapping, motor strength, gait) is missing.",
+              "specialist": "Neurologist",
+              "impact": "high"
+            },
+            {
+              "description": "The specific type or pattern of peripheral neuropathy (e.g., small fiber vs. large fiber, focal vs. diffuse) is not detailed from the NCS report.",
+              "specialist": "Neurologist",
+              "impact": "medium"
+            },
+            {
+              "description": "No mention of screening for autonomic neuropathy or other common causes of neuropathy.",
+              "specialist": "Neurologist",
+              "impact": "medium"
+            }
+          ],
+          "next_steps": [
+            "Perform a comprehensive neurological examination including sensory, motor, reflex, and gait assessment.",
+            "Consider further electrophysiological studies (e.g., quantitative sensory testing, autonomic testing) to characterize neuropathy.",
+            "Initiate symptomatic management for neuropathic pain (e.g., gabapentin, pregabalin, duloxetine).",
+            "Screen for autonomic neuropathy, given the long-standing diabetes.",
+            "Evaluate for other potential causes of neuropathy (e.g., B12 deficiency, thyroid dysfunction, alcohol use)."
+          ]
+        },
+        {
+          "rank": 3,
+          "condition": "High Cardiovascular Risk Profile with Stage 1 Hypertension",
+          "confidence": 95.0,
+          "primary_reason": "The patient presents with multiple unaddressed and modifiable cardiovascular risk factors, including poorly controlled Type 2 Diabetes, Stage 1 Hypertension (BP 142/88 mmHg), obesity (BMI 31.4), and active smoking. These factors collectively place the patient at significantly elevated risk for cardiovascular events.",
+          "specialist_support": [
+            {
+              "specialist": "Cardiologist",
+              "confidence": 95.0,
+              "evidence": "The patient exhibits a high cardiovascular risk profile due to multiple modifiable factors including smoking, obesity, and a sedentary lifestyle. BP 142/88 mmHg, BMI 31.4."
+            },
+            {
+              "specialist": "Internist",
+              "confidence": 92.0,
+              "evidence": "Multiple unaddressed cardiovascular risk factors including hypertension, obesity, and lifestyle choices. BP 142/88 mmHg, BMI 31.4."
+            },
+            {
+              "specialist": "Cardiologist",
+              "confidence": 90.0,
+              "evidence": "The patient's blood pressure of 142/88 mmHg indicates Stage 1 hypertension, a critical modifiable risk factor."
+            }
+          ],
+          "contradictions": [
+            {
+              "description": "No information on cardiac structure, valvular function, or global systolic/diastolic function (e.g., echocardiogram results) is provided, limiting a complete cardiac assessment.",
+              "specialist": "Cardiologist",
+              "impact": "high"
+            },
+            {
+              "description": "A complete lipid profile (total cholesterol, LDL, HDL, triglycerides) is absent, which is essential for comprehensive cardiovascular risk stratification.",
+              "specialist": "Cardiologist",
+              "impact": "high"
+            },
+            {
+              "description": "No electrocardiogram (ECG) findings are available to assess cardiac rhythm, conduction abnormalities, or signs of ischemia.",
+              "specialist": "Cardiologist",
+              "impact": "medium"
+            }
+          ],
+          "next_steps": [
+            "Perform a comprehensive cardiovascular workup including an echocardiogram and an electrocardiogram (ECG).",
+            "Obtain a complete lipid panel (total cholesterol, LDL, HDL, triglycerides) to further stratify cardiovascular risk.",
+            "Intensify lifestyle modifications focusing on smoking cessation, dietary changes for weight management, and a structured exercise program.",
+            "Initiate or adjust antihypertensive therapy to achieve blood pressure targets, considering the presence of diabetes and renal dysfunction."
+          ]
+        }
+      ],
+      "consensus_highlights": [
+        "The patient has poorly controlled Type 2 Diabetes Mellitus (HbA1c 8.7%) which is the central underlying condition.",
+        "Diabetic peripheral neuropathy is objectively confirmed and is the primary cause of the patient's chief complaint of burning, numbness, and tingling in the feet.",
+        "The patient carries a significantly elevated cardiovascular risk profile due to uncontrolled diabetes, hypertension, obesity, and active smoking.",
+        "Early renal impairment (mildly reduced eGFR) is present, likely a complication of long-standing diabetes.",
+        "Aggressive lifestyle modifications (smoking cessation, diet, exercise) are universally recommended across specialties to manage diabetes, cardiovascular risk, and other potential complications."
+      ],
+      "disagreement_notes": [
+        "There are no direct contradictions regarding the established medical findings. However, significant gaps in comprehensive assessment were identified by multiple specialists.",
+        "The Neurologist noted the absence of a detailed neurological examination and specific characterization of neuropathy, as well as lack of screening for autonomic neuropathy or other causes.",
+        "The Cardiologist highlighted the lack of information on cardiac structure/function (echocardiogram), a complete lipid profile, and ECG findings, which are crucial for a full cardiovascular assessment.",
+        "The Psychiatrist's report completely lacked any assessment of mood, anxiety, cognitive function, or psychological well-being, despite the patient's chronic illness and pain, indicating a major gap in holistic care.",
+        "The Gastroenterologist's assessment was limited by the absence of direct GI symptoms, leading to a lower overall confidence in their report's immediate clinical relevance."
+      ],
+      "specialist_confidence": {
+        "Internist": 95.0,
+        "Neurologist": 90.0,
+        "Cardiologist": 90.0,
+        "Gastroenterologist": 70.0,
+        "Psychiatrist": 60.0
+      }
+    },
+    "treatmentOptions": [
+      {
+        "option_number": 1,
+        "match_percentage": 95,
+        "primary_name": "Integrated Diabetes, Cardiovascular, and Neuropathy Management",
+        "overview": "A holistic, multidisciplinary program to achieve optimal glycemic control, reduce cardiovascular risk, manage neuropathic pain, and address systemic complications through intensive medical and lifestyle interventions.",
+        "modality": "Medical management, lifestyle modification, diagnostic evaluation, specialist consultations.",
+        "success_rate": 85,
+        "duration": "Long-term, ongoing",
+        "recovery_time": "N/A (ongoing management)",
+        "cost_estimate": "High (medications, frequent specialist visits, comprehensive diagnostics, lifestyle support programs)",
+        "side_effects": [
+          "Potential for hypoglycemia with intensified diabetes regimen",
+          "Medication side effects (e.g., GI upset from Metformin, dizziness from antihypertensives)",
+          "Challenges with adherence to intensive lifestyle changes"
+        ],
+        "recommended_for": [
+          "Patients with poorly controlled Type 2 Diabetes Mellitus (HbA1c 8.7%)",
+          "Established microvascular complications (diabetic peripheral neuropathy, early renal impairment)",
+          "High cardiovascular risk profile (hypertension, obesity, smoking)",
+          "Willingness to engage in comprehensive self-management and multidisciplinary care"
+        ],
+        "procedure_steps": [
+          "**Glycemic Optimization**: Intensify diabetes regimen (e.g., adjust Metformin, optimize insulin, consider GLP-1 RA/SGLT2i if appropriate for renal/cardiac benefits) to achieve target HbA1c.",
+          "**Cardiovascular Workup & Management**: Perform echocardiogram, ECG, and complete lipid panel. Optimize antihypertensive therapy to target BP <130/80 mmHg. Consider statin therapy.",
+          "**Neuropathy Management**: Initiate symptomatic neuropathic pain medication (e.g., gabapentin, pregabalin, duloxetine). Conduct comprehensive neurological exam and consider autonomic testing.",
+          "**Renal Protection**: Monitor eGFR/ACR closely. Consider ACEi/ARB if not already on, for nephroprotection.",
+          "**Aggressive Lifestyle Modification**: Enroll in structured smoking cessation program. Refer to registered dietitian for personalized meal plan for weight loss. Prescribe structured exercise program (e.g., 150 min moderate intensity/week).",
+          "**Psychological Support**: Conduct comprehensive psychiatric evaluation for mood, anxiety, coping, and readiness for change."
+        ],
+        "notes": [
+          "This option provides the most comprehensive and coordinated care, addressing all identified diagnoses and critical assessment gaps.",
+          "Requires significant patient engagement and multidisciplinary team collaboration for optimal outcomes."
+        ]
+      },
+      {
+        "option_number": 2,
+        "match_percentage": 85,
+        "primary_name": "Targeted Diabetes Control and Neuropathic Pain Relief",
+        "overview": "Focuses on immediate improvement of glycemic control to mitigate disease progression and provides symptomatic relief for the patient's chief complaint of peripheral neuropathy.",
+        "modality": "Medical management, pain management, lifestyle counseling.",
+        "success_rate": 80,
+        "duration": "Ongoing",
+        "recovery_time": "N/A",
+        "cost_estimate": "Moderate (medications, specialist visits, basic diagnostics)",
+        "side_effects": [
+          "Potential for hypoglycemia with intensified diabetes regimen",
+          "Medication side effects (e.g., somnolence with gabapentin)",
+          "Potential for weight gain with some diabetes medications"
+        ],
+        "recommended_for": [
+          "Patients prioritizing relief from neuropathic pain and immediate improvement in diabetes control",
+          "Individuals who may benefit from a more focused initial approach before broader interventions",
+          "Patients with confirmed diabetic peripheral neuropathy and poorly controlled Type 2 Diabetes"
+        ],
+        "procedure_steps": [
+          "**Glycemic Intensification**: Review and adjust current Metformin and insulin regimen to achieve a more aggressive HbA1c target.",
+          "**Neuropathic Pain Management**: Prescribe first-line medication for neuropathic pain (e.g., gabapentin or pregabalin) and titrate to effect.",
+          "**Neurology Assessment**: Perform detailed neurological examination (sensory, motor, reflexes, gait) and consider further electrophysiological studies to characterize neuropathy.",
+          "**Basic Lifestyle Counseling**: Reinforce smoking cessation and provide general advice on diet and exercise.",
+          "**Monitoring**: Regular monitoring of HbA1c, blood pressure, and renal function."
+        ],
+        "notes": [
+          "This option directly addresses the patient's most bothersome symptom and the underlying cause, offering quicker symptomatic relief and disease control.",
+          "While effective for primary concerns, it may not fully address all cardiovascular risks or diagnostic gaps identified by specialists."
+        ]
+      },
+      {
+        "option_number": 3,
+        "match_percentage": 75,
+        "primary_name": "Aggressive Cardiovascular Risk Reduction and Lifestyle Intervention",
+        "overview": "A program emphasizing the reduction of cardiovascular risk through comprehensive diagnostic evaluation, optimization of blood pressure and lipids, and intensive, structured lifestyle modifications.",
+        "modality": "Lifestyle modification, medical management, diagnostic evaluation.",
+        "success_rate": 70,
+        "duration": "Long-term",
+        "recovery_time": "N/A",
+        "cost_estimate": "Moderate (diagnostics, lifestyle support programs, medications)",
+        "side_effects": [
+          "Medication side effects (e.g., muscle pain from statins, orthostatic hypotension from antihypertensives)",
+          "Challenges with sustained lifestyle changes and adherence"
+        ],
+        "recommended_for": [
+          "Patients with multiple unaddressed cardiovascular risk factors (Stage 1 hypertension, obesity, active smoking)",
+          "Individuals motivated to make significant, sustained lifestyle changes to prevent future cardiovascular events",
+          "Patients with poorly controlled diabetes contributing to high cardiovascular risk"
+        ],
+        "procedure_steps": [
+          "**Comprehensive Cardiac Workup**: Perform echocardiogram, ECG, and complete lipid panel (total cholesterol, LDL, HDL, triglycerides).",
+          "**Antihypertensive Optimization**: Initiate or adjust antihypertensive therapy to achieve target blood pressure, considering agents with renal protective benefits.",
+          "**Lipid Management**: Initiate statin therapy based on risk stratification and lipid panel results.",
+          "**Intensive Lifestyle Program**: Enroll in a structured smoking cessation program. Refer to a registered dietitian for a personalized weight management plan. Develop a progressive exercise regimen.",
+          "**Screening for Complications**: Consider abdominal ultrasound to screen for NAFLD/NASH given obesity and diabetes.",
+          "**Psychological Support**: Assess readiness for change and provide support for adherence to lifestyle modifications."
+        ],
+        "notes": [
+          "This option is crucial for long-term health and prevention of major adverse cardiovascular events, which are a significant risk for this patient.",
+          "Requires substantial commitment to lifestyle changes for effectiveness and may not immediately address the patient's chief complaint of neuropathy."
+        ]
+      }
+    ]
+  }
+}

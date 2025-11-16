@@ -1,0 +1,15 @@
+langchain
+langchain-community 
+langchain-openai
+langchain-experimental
+python-dotenv
+langchain_ollama
+langchain-google-genai
+reportlab
+dotenv
+jinja2
+fastapi
+uvicorn
+python-multipart
+pdfplumber
+pypdf2
